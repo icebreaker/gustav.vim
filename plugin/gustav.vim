@@ -28,7 +28,7 @@ function! gustav#add()
   if len(line) == 0
 	call setline('.', g:gustav_unmarked)
   else
-    call append('.', g:gustav_unmarked)
+	call append('.', g:gustav_unmarked)
 	normal! j
   end
 
